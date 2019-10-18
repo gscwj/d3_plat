@@ -2,7 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/bar1">bar1</router-link> |
+      <router-link to="/d3test1">d3test1</router-link> |
+      <router-link to="/d3_template1">d3_template1</router-link> |
+<!--      <router-link to="/tree1">tree1</router-link> |-->
+<!--      <router-link to="/about">About</router-link>-->
     </div>
     <router-view/>
   </div>
